@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "../App.css";
 import * as ReactBootstrap from "react-bootstrap";
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
           <img
             id="profilePic"
             alt="Sam Horne"
-            src={require("../../Images/ProfilePic.png")}
+            src={require("../Images/ProfilePic.png")}
           />
         </ReactBootstrap.Col>
         <ReactBootstrap.Col className="col-md-8" id="aboutheadCol2">

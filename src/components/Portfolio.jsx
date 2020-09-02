@@ -1,6 +1,6 @@
 import React from "react";
 import * as ReactBootstrap from "react-bootstrap";
-import "../../App.css";
+import "../App.css";
 
 function Portfolio() {
   return (
@@ -15,7 +15,7 @@ function Portfolio() {
             <a href="https://github.com/SWHorne" target="blank">
               <img
                 id="cardImage"
-                src={require("../../Images/githubProfile.png")}
+                src={require("../Images/githubProfile.png")}
                 alt="Github profile"
               />
             </a>
@@ -34,7 +34,7 @@ function Portfolio() {
             <a href={require("./Resume.pdf")} target="blank">
               <img
                 id="cardImage"
-                src={require("../../Images/Resume.png")}
+                src={require("../Images/Resume.png")}
                 alt="Resume"
               />
             </a>
@@ -53,7 +53,7 @@ function Portfolio() {
             <a href="https://www.linkedin.com/in/samuelhorne/" target="blank">
               <img
                 id="cardImage"
-                src={require("../../Images/LinkedInProfile.png")}
+                src={require("../Images/LinkedInProfile.png")}
                 alt="Linked profile"
               />
             </a>
