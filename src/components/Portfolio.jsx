@@ -40,7 +40,7 @@ function Portfolio() {
             </a>
             <ReactBootstrap.Card.Body className="card-body">
               <ReactBootstrap.Card.Text className="card-text">
-                To view my qualifications and work history, please{" "}
+                To view my qualifications and work history{" "}
                 <a href="./Resume.pdf" target="blank" id="cardTextLink">
                   click here.
                 </a>
