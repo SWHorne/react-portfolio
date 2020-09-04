@@ -25,7 +25,7 @@ function Navbar() {
               <ReactBootstrap.Nav.Link href="/Portfolio" id="navbarLink">
                 Portfolio
               </ReactBootstrap.Nav.Link>
-              <ReactBootstrap.Nav.Link href="/Resume" target="blank" id="navbarLink">
+              <ReactBootstrap.Nav.Link href="/Resume" id="navbarLink">
                 Resume
               </ReactBootstrap.Nav.Link>
             </ReactBootstrap.Nav>
